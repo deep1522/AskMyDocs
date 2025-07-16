@@ -3,8 +3,6 @@ import { SignedIn,SignedOut,SignInButton,UserButton,SignUpButton } from '@clerk/
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from './ui/button';
-import { ChevronDown, FileText, GraduationCap, LayoutDashboard, PenBox, StarsIcon } from 'lucide-react';
-import { DropdownMenuSeparator,DropdownMenuItem,DropdownMenu,DropdownMenuTrigger,DropdownMenuContent,DropdownMenuLabel } from './ui/dropdown-menu';
 // import { checkUser } from '../lib/checkUser';
 
 const Header = async ()=>{
@@ -22,7 +20,7 @@ return(
           />
           </Link>
           <div className='flex items-center space-x-2 md:space-x-4'>
-            <SignedIn>
+            {/* <SignedIn>
             </SignedIn>
             <SignedOut>
               <SignInButton>
@@ -40,7 +38,7 @@ return(
               }}
               afterSignOutUrl='/'
               />
-        </SignedIn>
+            </SignedIn> */}
           </div>
         </nav>
         </header>

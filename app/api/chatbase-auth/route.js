@@ -1,6 +1,6 @@
 export async function query(data) {
     const response = await fetch(
-      "https://cloud.flowiseai.com/api/v1/prediction/dc74fc1a-37a6-4004-9338-2f03c0c1744e",
+      "http://localhost:3000/api/v1/prediction/35c5f3ff-f066-4114-a431-d9c42c62245e",
       {
         method: "POST",
         headers: {
